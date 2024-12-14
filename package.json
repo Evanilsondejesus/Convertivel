@@ -1,0 +1,45 @@
+{
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+   "name": "Convertivel",
+    "version": "1.0.0",
+    "description": "Descrição do seu aplicativo",
+    "author": "Evanilson Almeida",
+    "main": "index.js",
+
+  "scripts": {
+    "dev": "electron .",
+    "de": "nodemon --exec electron .",
+    "build": "electron-builder",
+    "start-dev": "electron . --dev",
+    "package-win": "electron-packager . meu-aplicativo --platform=win32 --arch=x64 --out=release-builds --overwrite"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0"
+  },
+  "build": {
+    "appId": "com.seuapp",
+    "win": {
+      "icon": "imagem/icon_aplicativo.png",
+      "target": "appx"
+    },
+    "appx": {
+      "displayName": "Convertivel",
+      "publisher": "CN=A0D268AB-3FB9-439B-A950-1179C3BC560E",
+      "publisherDisplayName": "Evanilson developer",
+      "identityName": "Evanilsondeveloper.convertivel"
+    },
+    "icon": "imagem/icon_convertion.svg",
+    "productName": "Convertivel",
+    "fileAssociations": [
+      {
+        "ext": "txt",
+        "name": "Convertivel",
+        "role": "Editor",
+        "icon": "imagem/icon_aplicativo.png"
+      }
+    ]
+  }
+}

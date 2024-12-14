@@ -1,0 +1,11 @@
+{
+    "appId": "Evanilsondeveloper.convertivel",
+    "win": {
+      "target": "msi",
+      "publisher": "CN=A0D268AB-3FB9-439B-A950-1179C3BC560E"
+    },
+    "extraMetadata": {
+      "PublisherDisplayName": "Evanilson developer"
+    }
+  }
+  

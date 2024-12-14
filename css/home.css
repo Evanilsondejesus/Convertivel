@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Noto+Sans:wght@100&family=Oswald:wght@200&display=swap');
+ 
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box; 
+font-weight: 400;
+font-size: 13px;
+font-family: 'Noto Sans',;
+
+}
+  
+body {
+  background: linear-gradient(to top, #ffffff, #8b8686);
+  height: 100vh; /* 100% da altura da janela */
+  margin: 0;
+}
+
+
+
+  .container_init{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; 
+  margin: auto;
+  text-align: center;
+  text-align: center;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 20px;
+  
+  }
+ 
+  .container_init button{
+  padding: 30px 30% ;
+  border-radius: 20px;
+  border: none;
+  font-size: 30px;
+  background-color: #f37b72;
+  box-shadow: 0px 10px 5px 3px #fce1d5;
+  cursor: pointer;
+  
+  }
+  
+.container_init button :hover{
+border: 1px solid;
+opacity: 0.6;
+}
+
+img {
+cursor: pointer;
+}
+ 
+
+#btn_converte{
+  padding: 30px 30% ;
+  border-radius: 20px;
+  border: none;
+  font-size: 30px;
+  background-color: #f37b72;
+  box-shadow: 0px 10px 5px 3px #fce1d5;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+ 
+   
+span {
+  font-family: 'Roboto';
+  font-size: 40;
+  color: #070200;
+}
